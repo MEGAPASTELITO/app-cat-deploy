@@ -1,0 +1,27 @@
+.header{
+ display: flex;
+ border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.navigation{
+ display: flex;
+ list-style: none;
+ padding: 0 12px;
+}
+
+.navigationLi > a{
+ margin:  0 5px;
+ padding: 10px 18px;
+ text-align: center;
+ cursor: pointer;
+ background: #F7F7F7;
+ font-size: 16px;
+ border-radius: 3px;
+ transition: background .15s;
+}
+
+.navigationLi > a:hover{
+ background: #F0F0F0;
+ text-decoration: underline;
+}

@@ -1,0 +1,25 @@
+.seccion{
+ margin-top: 20px;
+ border-radius: 4px;
+ border: 1px solid #ccc;
+ width: 100%;
+}
+
+.content{
+  padding: 12px;
+}
+
+.img{
+ border-radius: 2px;
+ width: calc(100%);
+}
+
+.title{
+ width: 100%;
+ margin: 0;
+}
+
+.subTitle{
+ width: 100%;
+
+}
