@@ -18,7 +18,7 @@ export default async function ListOfCatByName({ name, children }) {
 				.filter((cat) => cat.name === name)
 				.map((cat) => {
 					return (
-						<section className={style.seccion}>
+						<section className={style.seccion} key={cat.name}>
 							<Image
 								width="10000"
 								height="0"

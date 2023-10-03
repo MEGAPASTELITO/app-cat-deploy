@@ -15,7 +15,7 @@ export default function ListOfCatInfo({ name }) {
 				.filter((cat) => cat.name === name)
 				.map((cat) => {
 					return (
-						<div className={style.container}>
+						<div className={style.container} key={cat.name}>
 							<p>raze:</p>
 							<p>
 								<b>{cat.name}</b>
