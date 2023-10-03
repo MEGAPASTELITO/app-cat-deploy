@@ -15,7 +15,7 @@ export default function HomePage() {
 			/>
 			create by megapastelito
 			<br />
-			hostyn by google clone
+			hostyn by vercel
 		</>
 	);
 }
